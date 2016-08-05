@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class BaseUtility {
 	
@@ -12,7 +14,7 @@ public class BaseUtility {
 	static WebDriver driver;
 	
 	
-	@BeforeClass 
+	@BeforeTest
 	public static void setUpBrowser()
 	{
 		

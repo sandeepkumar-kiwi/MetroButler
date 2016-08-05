@@ -21,8 +21,8 @@ public class Test_SignUp_Object {
 	//SignUp_Object signUp_Obj;
 	static WebDriver driver;
 	//static WebElement element;
-	//static String url = "http://metrobutler-qa.kiwireader.com/";
-	static String url = "http://metrobutler-dev.kiwireader.com/";
+	static String url = "http://metrobutler-qa.kiwireader.com/";
+	//static String url = "http://metrobutler-dev.kiwireader.com/";
 
 	ExcelReader excelReaderObj;
 	static String firstName = null;
@@ -198,10 +198,13 @@ public class Test_SignUp_Object {
 		Thread.sleep(3000);
 		SignUp_Object.doneSignUpComplete().click();
 		
+		
+		// scehduler setting
+		
 		Thread.sleep(3000);
 		SignUp_Object.setSchedulerYes().click();
 		Thread.sleep(3000);
-		SignUp_Object.skipScheduler().click();
+		SignUp_Object.skipScheduler().click(); // - its use to skip the scheduler.
 		
 		
 	

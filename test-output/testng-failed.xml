@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.metrobutler.sprint1.Test_SignUp_Object">
+      <class name="com.metrobutler.sprint1.TestSchedulerSetting">
         <methods>
-          <include name="test_SignUp"/>
-          <include name="afterSignUp"/>
-          <include name="beforeSignUp"/>
+          <include name="testSchedulerSetting"/>
         </methods>
-      </class> <!-- com.metrobutler.sprint1.Test_SignUp_Object -->
+      </class> <!-- com.metrobutler.sprint1.TestSchedulerSetting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

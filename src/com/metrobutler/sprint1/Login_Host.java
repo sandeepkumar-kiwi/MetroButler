@@ -24,8 +24,8 @@ public class Login_Host {
 		WebElement password = driver.findElement(By.xpath("//input[@placeholder='Enter your password']"));
 		WebElement submit = driver.findElement(By.xpath("//input[@id='signin']"));
 
-		email.sendKeys("sandeep.kumar@kiwitech.com");
-		password.sendKeys("kiwi@123");
+		email.sendKeys("sandeep@yopmail.com");
+		password.sendKeys("123456");
 		submit.click();
 	}
 

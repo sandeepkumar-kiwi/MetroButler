@@ -1044,13 +1044,15 @@ public class SignUp_Object {
 		try
 		{
 			//element = driver.findElement(By.className("btn next-step final-done"));
-			element = driver.findElement(By.linkText("Yes"));
+			//element = driver.findElement(By.linkText("Yes"));
+			element = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
 			
 			
 		}
 	 catch(Exception e)
 	{
 		e.printStackTrace();
+		System.out.println("Scheduler Yes value not found");
 	}
 		return element;
 	
@@ -1076,6 +1078,8 @@ public class SignUp_Object {
 	
 
 }
+	
+	
 	
 	
 	
